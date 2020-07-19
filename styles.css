@@ -1,30 +1,73 @@
+
+*{box-sizing:border-box;}
+    body{margin: 0;
+        font-family: Consolas ;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: rgb(150, 221, 243);
+        overflow-x: hidden;
+        background: url('video.png');
+        background-size: 100%;
+        
+    }
+   .header-overlay{height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.80;
+
+   }
+   .header-content{
+       z-index: 2;
+       margin-top: 20%;
+       padding: 0 5rem;
+   }
+
+   .navbar{z-index: 10;}
+   .my-nav {color: transparent;}
+
+   
+    .video-header-wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -9999;
+        opacity: 0.80;
+      }
+
 .thin_border{
-	border: 1px solid rgb(204, 0, 0);
-}
-.navbar{
-    text-decoration: rgb(204, 0, 0);
-    background-color: #000000 !important;
-    border-color: red;
+	border: 1px solid rgb(150, 221, 243);
 }
 
+
 .nav-link {
-    color:rgb(218, 5, 5)!important;
-    font-family: 'Sifonn Basic'
+    color: rgb(150, 221, 243)!important;
+    font-family: Consolas
     }
     
 .nav-link:hover {
-    color: rgb(218, 5, 5);
-    color: rgb(0, 0, 0) !important;
-    font-family: 'Sifonn Basic'
+    color:  rgb(150, 221, 243);
+    color:  rgb(150, 221, 243) !important;
+    font-family: Consolas
 }
 .dropdown-item {
-    color: rgb(218, 5, 5) !important;
-    background-color: #000000 !important;
-    font-family: 'Sifonn Basic'
+    color:  rgb(150, 221, 243) !important;
+    background-color: transparent!important;
+    font-family: Consolas
+}
+.dropdown-menu{
+    background-color: transparent;
 }
 .navbar .navbar-brand{
-color: rgb(218, 5, 5);
-font-family: 'Sifonn Basic';
+color:  rgb(150, 221, 243);
+font-family: Alieron Heavy;
 font-size: 50px;
 }
 
@@ -33,8 +76,8 @@ font-size: 50px;
 
 a:hover{
     border: none;
-    background: rgb(218, 5, 5);
-    text-decoration: rgb(218, 5, 5);
+    background: transparent;
+    text-decoration: whitesmoke;
     padding: 10px;
     font-size: 20px;
     border-radius: 5px;
